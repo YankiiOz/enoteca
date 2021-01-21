@@ -1,0 +1,395 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: #282828;
+}
+
+ul {
+  list-style: none;
+}
+
+.introductory-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./enoteca.images/preview-img.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+}
+
+.top-header-info {
+  display: flex;
+  padding-top: 30px;
+  justify-content: space-between;
+}
+
+.top-header-info:first-child {
+  margin-left: -38px;
+}
+
+.bottom-header-info {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.bottom-header-info td {
+  border-right: 1px solid #fff;
+  padding: 13px 101px 13px 101px;
+}
+
+.bottom-header-info td:last-child {
+  border-right: none;
+}
+
+.buttons {
+  margin-bottom: 150px;
+  margin-top: 300px;
+}
+
+.buttons button {
+  background-color: #99862a;
+  padding: 15px 30px;
+  border: none;
+  color: #fff;
+  margin: 20px;
+}
+
+.taste {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 3px solid #fff;
+  margin: 100px 180px;
+}
+
+.taste h2 {
+  padding: 45px 70px 30px 70px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.taste h2::after {
+  content: "";
+  background-image: url(./enoteca.images/after-line.svg);
+  position: absolute;
+  left: 350px;
+  top: 150px;
+  width: 150px;
+  height: 1px;
+}
+
+.taste p {
+  padding: 0 150px 250px 150px;
+}
+
+.taste p::after {
+  content: "";
+  background-image: url(./enoteca.images/wine-glass.svg);
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  bottom: 60px;
+  right: 350px;
+}
+
+.collection-newies {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #e6e3c4;
+  color: #282828;
+  padding: 50px;
+}
+
+.collection-newies::before {
+  content: "";
+  background-image: url(./enoteca.images/line-top.svg);
+  width: 970px;
+  height: 1px;
+  position: absolute;
+  left: 165px;
+  top: 80px;
+}
+
+.collection-newies::after {
+  content: "";
+  background-image: url(./enoteca.images/line-top.svg);
+  width: 970px;
+  height: 1px;
+  position: absolute;
+  left: 165px;
+  bottom: 70px;
+}
+
+.catalog-example {
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.harvest-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 120px;
+  margin-top: -10px;
+  margin-right: 80px;
+  max-width: 400px;
+}
+
+.harvest-information table {
+  border-collapse: collapse;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.harvest-information td {
+  padding: 15px;
+}
+
+.harvest-information h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 54px;
+}
+
+.harvest-information h2::after {
+  content: "";
+  background-image: url(./enoteca.images/marcel-line.svg);
+  position: absolute;
+  height: 1px;
+  width: 100px;
+  top: 310px;
+  left: 170px;
+}
+
+.harvest-information p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.newies {
+  margin-bottom: 0;
+}
+
+.bottom-border {
+  border-bottom: 1px solid #282828;
+}
+
+.right-border {
+  border-right: 1px solid #282828;
+}
+
+.more-info {
+  border: none;
+  background-color: #99862a;
+  color: #fff;
+  padding: 15px 30px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.bottles {
+  margin-top: 20px;
+}
+.right-photo {
+  margin-left: 26px;
+  margin-top: 26px;
+}
+
+.left-photo {
+  margin-top: 26px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-info {
+  position: relative;
+  max-width: 800px;
+  margin-top: 180px;
+  margin-bottom: 100px;
+}
+
+.contact-info h2 {
+  padding-bottom: 80px;
+}
+
+.contact-info h2::after {
+  content: "";
+  background-image: url(./enoteca.images/after-line.svg);
+  position: absolute;
+  top: 100px;
+  left: 350px;
+  height: 1px;
+  width: 100px;
+}
+
+.contact-info p {
+  padding: 0 150px 80px 150px;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  width: 230px;
+  padding-right: 30px;
+}
+
+.feedback input:first-child {
+  margin-right: 30px;
+}
+.feedback input:last-child {
+  width: 500px;
+  padding-top: 60px;
+}
+
+.feedback button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 500px;
+  padding: 15px 100px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.contact-info::after {
+  content: "";
+  background-image: url(./enoteca.images/border.svg);
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  transform: scale(1, -1);
+  bottom: -20px;
+  left: -110px;
+}
+
+.contact-info::before {
+  content: "";
+  background-image: url(./enoteca.images/border.svg);
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  transform: rotate(180deg);
+  bottom: -20px;
+  right: -110px;
+}
+
+.contact-info h2::before {
+  content: "";
+  background-image: url(./enoteca.images/grape.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: -150px;
+}
+
+.contact-info h2::after {
+  content: "";
+  background-image: url(./enoteca.images/wine-can.svg);
+  position: absolute;
+  width: 260px;
+  height: 200px;
+  top: -60px;
+  left: 700px;
+}
+
+.contact-info p::before {
+  content: "";
+  background-image: url(./enoteca.images/after-line.svg);
+  width: 70px;
+  height: 2px;
+  position: absolute;
+  top: 35px;
+  left: 130px;
+}
+
+.contact-info p::after {
+  content: "";
+  background-image: url(./enoteca.images/after-line.svg);
+  width: 90px;
+  height: 2px;
+  position: absolute;
+  top: 35px;
+  right: 130px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #99862a;
+  color: #fff;
+  padding: 50px;
+}
+
+.nav-list {
+  display: flex;
+  border-top: 1px solid #fff;
+  padding-left: 0;
+}
+
+.nav-list li {
+  padding: 20px 35px 10px;
+}
+
+.navigation {
+  border-collapse: collapse;
+  font-size: 14px;
+  line-height: 21px;
+}
+.navigation td {
+  width: 250px;
+  border: 1px solid #fff;
+  padding: 20px 10px 20px 10px;
+}
+
+.navigation td:first-child {
+  border-top: 1px solid #fff;
+  border-left: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navigation td:last-child {
+  border-right: none;
+  text-transform: uppercase;
+}
