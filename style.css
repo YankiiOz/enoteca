@@ -56,6 +56,12 @@ ul {
   border-right: none;
 }
 
+.bottom-header-info a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
 .buttons {
   margin-bottom: 150px;
   margin-top: 300px;
@@ -392,4 +398,238 @@ footer {
 .navigation td:last-child {
   border-right: none;
   text-transform: uppercase;
+}
+
+.inside-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.configure-introduction {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.configure-introduction::before {
+  content: "";
+  background-image: url(./enoteca.images/line-top.svg);
+  position: absolute;
+  bottom: -120px;
+  left: 390px;
+  width: 450px;
+  height: 2px;
+  
+}
+
+.configure-introduction h1 {
+  font-size: 46px;
+  line-height: 60px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+
+.configure-introduction i {
+  font-size: 26px;
+  margin-bottom: -80px;
+}
+
+.configure-opportunities {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 300px;
+}
+
+.configure-opportunities::before {
+  content: "";
+  background-image: url(./enoteca.images/grape.svg);
+  width: 260px;
+  height: 260px;
+  position: absolute;
+  top: -80px;
+  left: 50px;
+}
+
+.configure-opportunities::after {
+  content: "";
+  background-image: url(./enoteca.images/grape.svg);
+  transform: rotateY(-180deg);
+  width: 260px;
+  height: 260px;
+  position: absolute;
+  top: -80px;
+  right: 50px;
+}
+
+.configure-opportunities div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+} 
+.configure-opportunities h3 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.configure-opportunities p:hover {
+  background-color: #e6e3c4;
+  color: #282828;
+  transition: 0.4s linear; 
+}
+
+
+
+.wine-color p {
+  margin: 30px;
+  border: 1px solid #2b2a2a;
+  background-color: #2b2a2a;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: -0.9px 0.6px 4.6px 0 rgba(0,0,0,.14);
+  margin-bottom: 80px;
+}
+
+
+
+.wine-type p{
+  border: 1px solid #2b2a2a;
+  background-color: #2b2a2a;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px;
+  margin-bottom: 80px;
+  box-shadow: -0.9px 0.6px 4.6px 0 rgba(0,0,0,.14);
+}
+
+
+.wine-country p {
+  border: 1px solid #2b2a2a;
+  background-color: #2b2a2a;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px;
+  margin-bottom: 80px;
+  box-shadow: -0.9px 0.6px 4.6px 0 rgba(0,0,0,.14);
+}
+
+.wine-year p {
+  border: 1px solid #2b2a2a;
+  background-color: #2b2a2a;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px;
+  margin-bottom: 80px;
+  box-shadow: -0.9px 0.6px 4.6px 0 rgba(0,0,0,.14);
+}
+
+.wine-year::before {
+  content: "";
+  background-image: url(./enoteca.images/line-top.svg);
+  position: absolute;
+  bottom: -120px;
+  left: 50px;
+  width: 400px;
+  height: 2px;
+}
+
+.wine-year::after {
+  content: "";
+  background-image: url(./enoteca.images/line-top.svg);
+  position: absolute;
+  bottom: -120px;
+  right: 50px;
+  width: 400px;
+  height: 2px;
+}
+
+.wine-grape p {
+  border: 1px solid #2b2a2a;
+  background-color: #2b2a2a;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px;
+  margin-bottom: 80px;
+  box-shadow: -0.9px 0.6px 4.6px 0 rgba(0,0,0,.14);
+}
+
+.wine-grape::after {
+  content: "";
+  background-image: url(./enoteca.images/wine-can.svg);
+  position: absolute;
+  bottom: -200px;
+  right: 480px;
+  width: 260px;
+  height: 200px;
+}
+
+.your-wine {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e6e3c4;
+  color: #282828;
+  height: 500px;
+}
+
+.your-wine::before {
+  content: "";
+  background-image: url(./enoteca.images/line-top.svg);
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 1000px;
+  height: 1.5px;
+
+}
+.your-wine::after {
+  content: "";
+  background-image: url(./enoteca.images/line-top.svg);
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+  width: 1000px;
+  height: 1px;
+}
+
+.specifications {
+  margin-top: 30px;
+  margin-left: -200px;
+}
+
+.your-wine li {
+  margin-left: -40px;
+  padding-bottom: 20px;
+}
+
+.price {
+  border: 1px solid #2b2a2a;
+  background-color: #2b2a2a;
+  color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 1px 5px 16px 0px rgba(49, 51, 50, 0.56);
+}
+.price h3 {
+  margin-top: 0;
+}
+
+.price button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 15px;
 }
