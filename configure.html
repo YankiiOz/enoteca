@@ -30,48 +30,70 @@
     <i>Мы подберем для Вас идеальное вино </i>
 </section>
 <section class="configure-opportunities">
-    
-        <h3>Выберите цвет</h3>
-        <div class="wine-color">
-        <p><input type="checkbox">Красное</p>
-        <p><input type="checkbox">Розовое</p>
-        <p><input type="checkbox">Белое</p>
-    </div>
-    
-        <h3>Выберите тип</h3>
-        <div class="wine-type">
-        <p><input type="checkbox">Сладкое</p>
-        <p><input type="checkbox">Полусладкое</p>
-        <p><input type="checkbox">Сухое</p>
-        <p><input type="checkbox">Полусухое</p>
-    </div>
-    
-        <h3>Выберите страну производителя</h3>
+    <div class="left-sided">
         <div class="wine-country">
-        <p><input type="checkbox">Италия</p>
-        <p><input type="checkbox">Испания</p>
-        <p><input type="checkbox">Франция</p>
-        <p><input type="checkbox">Швеция</p>
-        <p><input type="checkbox">Чехия</p>
+            <h3>Выберите страну производителя</h3>
+            <select name="wine-country" id="country">
+                <option value="1">Италия</option>
+                <option value="2">Испания</option>
+                <option value="3">Франция</option>
+                <option value="4">Швеция</option>
+                <option value="5">Чехия</option>
+            </select>
+    </div>
+        
+        <div class="wine-color">
+            <h3>Выберите цвет</h3>
+            <select class="color" name="wine-color" id="color">
+                <option value="1">Красное</option>
+                <option value="2">Розовое</option>
+                <option value="3">Белое</option>
+            </select>
     </div>
     
-        <h3>Выберите год</h3>
+        <div class="wine-type">
+            <h3>Выберите тип</h3>
+            <select name="wine-type" id="type">
+                <option value="1">Сладкое</option>
+                <option value="2">Полусладкое</option>
+                <option value="3">Сухое</option>
+                <option value="4">Полусухое</option>
+            </select>
+    </div>
+    
+        
+        
+</div>
+    
+    <div class="right-sided">
+         <div class="wine-grape">
+            <h3>Выберите сорт винограда</h3>
+            <select name="wine-grape" id="grape">
+                <option value="1">Рислинг</option>
+                <option value="2">Саперави</option>
+                <option value="3">Пино Нуар</option>
+                <option value="4">Вердехо</option>
+                <option value="5">Мерло</option>
+                <option value="6">Шардоне</option>
+            </select>
+    </div>   
         <div class="wine-year">
-        <p><input type="checkbox">2000-2005</p>
-        <p><input type="checkbox">2005-2010</p>
-        <p><input type="checkbox">2010-2015</p>
-        <p><input type="checkbox">2015-2020</p>
+            <h3>Выберите год</h3>
+            <select name="wine-year" id="year">
+                <option value="1">2010</option>
+                <option value="2">2011</option>
+                <option value="3">2013</option>
+                <option value="4">2015</option>
+                <option value="5">2016</option>
+                <option value="6">2018</option>
+                <option value="7">2019</option>
+                <option value="8">2020</option>
+            </select>
     </div>
     
-        <h3>Выберите сорт винограда</h3>
-        <div class="wine-grape">
-        <p><input type="checkbox">Рислинг</p>
-        <p><input type="checkbox">Саперави</p>
-        <p><input type="checkbox">Пино Нуар</p> 
-        <p><input type="checkbox">Вердехо</p>
-        <p><input type="checkbox">Мерло</p>
-        <p><input type="checkbox">Шардоне</p>
-    </div>
+        
+        
+</div>
 </section>
 <section class="your-wine">
     <img src="./enoteca.images/wine.webp" alt="#">

@@ -444,9 +444,10 @@ footer {
 .configure-opportunities {
   position: relative;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
   margin-bottom: 300px;
+  margin-top: 300px;
 }
 
 .configure-opportunities::before {
@@ -455,7 +456,7 @@ footer {
   width: 260px;
   height: 260px;
   position: absolute;
-  top: -80px;
+  top: -280px;
   left: 50px;
 }
 
@@ -466,16 +467,32 @@ footer {
   width: 260px;
   height: 260px;
   position: absolute;
-  top: -80px;
+  top: -280px;
   right: 50px;
+} 
+
+.left-sided {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  text-align: left;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
 }
 
+.right-sided {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  margin-top: -110px;
+}
 .configure-opportunities div {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
   
-
 } 
 .configure-opportunities h3 {
   text-align: center;
@@ -483,56 +500,32 @@ footer {
   align-items: center;
 }
 
-.configure-opportunities p:hover {
-  background-color: #e6e3c4;
-  color: #282828;
-  transition: 0.4s linear; 
-}
-
-
-
-.wine-color p {
-  margin: 30px;
-  border: 1px solid #2b2a2a;
-  background-color: #2b2a2a;
+.configure-opportunities select {
+  padding: 15px;
   border-radius: 10px;
-  padding: 30px;
-  box-shadow: -0.9px 0.6px 4.6px 0 rgba(0,0,0,.14);
-  margin-bottom: 80px;
+  background-color: #282828;
+  color: #fff;
+}
+
+.right-sided h3 {
+  
+  padding-right: 20px;
+}
+.left-sided h3 {
+  
+  padding-right: 20px;
+}
+
+.wine-year,
+.wine-type {
+  margin-left: -130px;
+}
+
+.wine-color {
+  margin-left: -150px;
 }
 
 
-
-.wine-type p{
-  border: 1px solid #2b2a2a;
-  background-color: #2b2a2a;
-  border-radius: 10px;
-  padding: 30px;
-  margin: 20px;
-  margin-bottom: 80px;
-  box-shadow: -0.9px 0.6px 4.6px 0 rgba(0,0,0,.14);
-}
-
-
-.wine-country p {
-  border: 1px solid #2b2a2a;
-  background-color: #2b2a2a;
-  border-radius: 10px;
-  padding: 30px;
-  margin: 20px;
-  margin-bottom: 80px;
-  box-shadow: -0.9px 0.6px 4.6px 0 rgba(0,0,0,.14);
-}
-
-.wine-year p {
-  border: 1px solid #2b2a2a;
-  background-color: #2b2a2a;
-  border-radius: 10px;
-  padding: 30px;
-  margin: 20px;
-  margin-bottom: 80px;
-  box-shadow: -0.9px 0.6px 4.6px 0 rgba(0,0,0,.14);
-}
 
 .wine-year::before {
   content: "";
@@ -554,15 +547,6 @@ footer {
   height: 2px;
 }
 
-.wine-grape p {
-  border: 1px solid #2b2a2a;
-  background-color: #2b2a2a;
-  border-radius: 10px;
-  padding: 30px;
-  margin: 20px;
-  margin-bottom: 80px;
-  box-shadow: -0.9px 0.6px 4.6px 0 rgba(0,0,0,.14);
-}
 
 .wine-grape::after {
   content: "";
